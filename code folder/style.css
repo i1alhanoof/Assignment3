@@ -1,0 +1,66 @@
+/* style for signup.php page */
+.signup-page {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.fill-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.fill-section input {
+    width: 300px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.required-star{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.error-message {
+    color: red;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.submit-section input[type=submit] {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+/* style for welcome.php page */
+.welcome-page {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.info-container h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.table-section{
+    border-collapse: collapse;
+    width: 40%;
+    text-align: center;
+}
+
+.table-section th,td{
+    border: 2px solid black;
+}
+
+.table-section th {
+    background-color: red;
+    color: white;
+    height: 30px;
+}
